@@ -13,20 +13,6 @@
 #include "shell.h"
 #include "wot_list.h"
 
-#include <stdint.h>
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include "fmt.h"
-#include "net/gcoap.h"
-#include "net/utils.h"
-#include "od.h"
-
-#include "cbor.h"
-
-#include "net/credman.h"
-#include "net/dsm.h"
-
 #define NAME "alice"
 #define MAIN_QUEUE_SIZE (4)
 static msg_t _main_msg_queue[MAIN_QUEUE_SIZE];
